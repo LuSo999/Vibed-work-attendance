@@ -129,8 +129,8 @@ function renderThemeButton() {
 // Jazyk
 // ---------------------------------------------------------------------------
 const README_URLS = {
-  cs: 'https://github.com/LuSo999/Wibed-work-attendance/blob/main/README.cs.md',
-  en: 'https://github.com/LuSo999/Wibed-work-attendance/blob/main/README.md',
+  cs: 'https://github.com/LuSo999/Vibed-work-attendance/blob/main/README.cs.md',
+  en: 'https://github.com/LuSo999/Vibed-work-attendance/blob/main/README.md',
 };
 
 /** Statické texty, odkazy a přepínače podle aktuálního jazyka. */

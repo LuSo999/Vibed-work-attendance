@@ -2,11 +2,11 @@
 
 # Vibed – work attendance tracking
 
-**[▶ Open the app / Otevřít aplikaci](https://luso999.github.io/Wibed-work-attendance/)**
+**[▶ Open the app / Otevřít aplikaci](https://luso999.github.io/Vibed-work-attendance/)**
 
 A single page app for recording arrivals and departures, tracking overtime and an overtime bank.
 HTML + vanilla JS (ES modules), Firebase (Authentication + Firestore), TailwindCSS from a CDN.
-**No build step and no dependencies.** Runs on GitHub Pages: <https://luso999.github.io/Wibed-work-attendance/>
+**No build step and no dependencies.** Runs on GitHub Pages: <https://luso999.github.io/Vibed-work-attendance/>
 
 ## Features
 
@@ -73,7 +73,7 @@ section below the card on the Overview (so manual withdrawals stay visible and d
 ### 1. Create a Firebase project
 
 1. Open <https://console.firebase.google.com/> → **Create a project**.
-2. Enter a name (e.g. `wibed-attendance`). Google Analytics is not needed.
+2. Enter a name (e.g. `vibed-attendance`). Google Analytics is not needed.
 3. On the project overview click the **Web `</>`** icon, enter an app nickname. **Do not** tick Firebase Hosting and confirm **Register app**.
 4. The `firebaseConfig` object is displayed – keep it open (step 4).
 
@@ -98,9 +98,9 @@ section below the card on the Overview (so manual withdrawals stay visible and d
    ```js
    export const firebaseConfig = {
      apiKey: 'AIza…',
-     authDomain: 'wibed-attendance.firebaseapp.com',
-     projectId: 'wibed-attendance',
-     storageBucket: 'wibed-attendance.firebasestorage.app',
+     authDomain: 'vibed-attendance.firebaseapp.com',
+     projectId: 'vibed-attendance',
+     storageBucket: 'vibed-attendance.firebasestorage.app',
      messagingSenderId: '1234567890',
      appId: '1:1234567890:web:abc…',
    };
@@ -135,7 +135,7 @@ The rules allow reading and writing only `users/{uid}/**` and only to the signed
 1. Commit and push the changes (including the filled `js/firebase-config.js`) to the `main` branch.
 2. On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
 3. Branch **`main`**, folder **`/ (root)`** → **Save**.
-4. After a minute or two the app is available at <https://luso999.github.io/Wibed-work-attendance/>.
+4. After a minute or two the app is available at <https://luso999.github.io/Vibed-work-attendance/>.
 
 The `.nojekyll` file makes GitHub Pages serve the files as they are.
 
@@ -323,11 +323,11 @@ and lightweight views that can also be opened as separate browser bookmarks:
 
 ### Adding to the home screen and shortcuts in Chrome on Android
 
-1. Open <https://luso999.github.io/Wibed-work-attendance/> in **Chrome** and sign in.
+1. Open <https://luso999.github.io/Vibed-work-attendance/> in **Chrome** and sign in.
 2. Menu **⋮ → Add to home screen → Install** (or the "Install app" prompt at the bottom of the screen).
 3. On the home screen **long-press the Docházka icon** – the shortcuts **Příchod** (Arrival), **Odchod** (Departure) and **Kompaktní přehled** (Compact overview) appear.
 4. A shortcut can be dragged to the home screen as a separate icon (long-press and drag), so recording an arrival is a single tap.
-5. A lightweight view with just the buttons: open `…/Wibed-work-attendance/?view=quick` and add it via **⋮ → Add to home screen**
+5. A lightweight view with just the buttons: open `…/Vibed-work-attendance/?view=quick` and add it via **⋮ → Add to home screen**
    (this creates a bookmark that opens the app directly in this view).
 
 Shortcuts are read from `manifest.json` at install time; after a manifest change you sometimes need to uninstall and reinstall the app.

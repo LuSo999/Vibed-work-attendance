@@ -1,5 +1,5 @@
 {
-  "name": "wibed-work-attendance",
+  "name": "vibed-work-attendance",
   "private": true,
   "type": "module",
   "description": "Evidence pracovní docházky – bez build kroku a bez závislostí.",

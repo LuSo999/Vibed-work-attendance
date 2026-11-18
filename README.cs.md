@@ -2,11 +2,11 @@
 
 # Vibed – evidence pracovní docházky
 
-**[▶ Open the app / Otevřít aplikaci](https://luso999.github.io/Wibed-work-attendance/)**
+**[▶ Open the app / Otevřít aplikaci](https://luso999.github.io/Vibed-work-attendance/)**
 
 Single Page aplikace pro evidenci příchodů a odchodů, monitorování přesčasů a banky přesčasů.
 HTML + Vanilla JS (ES moduly), Firebase (Authentication + Firestore), TailwindCSS z CDN.
-**Bez build kroku a bez závislostí.** Běží na GitHub Pages: <https://luso999.github.io/Wibed-work-attendance/>
+**Bez build kroku a bez závislostí.** Běží na GitHub Pages: <https://luso999.github.io/Vibed-work-attendance/>
 
 ## Funkce
 
@@ -73,7 +73,7 @@ pod kartou na Přehledu (ruční výběry tak zůstávají vidět i smazatelné)
 ### 1. Vytvoření Firebase projektu
 
 1. Otevřete <https://console.firebase.google.com/> → **Create a project** (Přidat projekt).
-2. Zadejte název (např. `wibed-dochazka`). Google Analytics není potřeba.
+2. Zadejte název (např. `vibed-dochazka`). Google Analytics není potřeba.
 3. Na přehledu projektu klikněte na ikonu **Web `</>`**, zadejte přezdívku aplikace. Firebase Hosting **nezaškrtávejte** a potvrďte **Register app**.
 4. Zobrazí se objekt `firebaseConfig` – nechte si ho otevřený (krok 4).
 
@@ -98,9 +98,9 @@ pod kartou na Přehledu (ruční výběry tak zůstávají vidět i smazatelné)
    ```js
    export const firebaseConfig = {
      apiKey: 'AIza…',
-     authDomain: 'wibed-dochazka.firebaseapp.com',
-     projectId: 'wibed-dochazka',
-     storageBucket: 'wibed-dochazka.firebasestorage.app',
+     authDomain: 'vibed-dochazka.firebaseapp.com',
+     projectId: 'vibed-dochazka',
+     storageBucket: 'vibed-dochazka.firebasestorage.app',
      messagingSenderId: '1234567890',
      appId: '1:1234567890:web:abc…',
    };
@@ -135,7 +135,7 @@ Pravidla povolují čtení a zápis pouze do `users/{uid}/**` a jen přihlášen
 1. Commitněte a pushněte změny (včetně vyplněného `js/firebase-config.js`) do větve `main`.
 2. Na GitHubu: **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
 3. Branch **`main`**, složka **`/ (root)`** → **Save**.
-4. Po minutě až dvou je aplikace na <https://luso999.github.io/Wibed-work-attendance/>.
+4. Po minutě až dvou je aplikace na <https://luso999.github.io/Vibed-work-attendance/>.
 
 Soubor `.nojekyll` zajistí, že GitHub Pages servíruje soubory tak, jak jsou.
 
@@ -320,11 +320,11 @@ a úsporné pohledy, které lze otevřít i jako samostatné záložky prohlíž
 
 ### Přidání na plochu a zkratky v Chromu na Androidu
 
-1. Otevřete <https://luso999.github.io/Wibed-work-attendance/> v **Chromu** a přihlaste se.
+1. Otevřete <https://luso999.github.io/Vibed-work-attendance/> v **Chromu** a přihlaste se.
 2. Menu **⋮ → Přidat na plochu → Instalovat** (případně nabídka „Instalovat aplikaci“ dole na obrazovce).
 3. Na ploše **podržte ikonu Docházka** – objeví se zkratky **Příchod**, **Odchod** a **Kompaktní přehled**.
 4. Zkratku lze přetáhnout na plochu jako samostatnou ikonu (podržet a přetáhnout), takže příchod je pak jedno klepnutí.
-5. Úsporný pohled jen s tlačítky: otevřete `…/Wibed-work-attendance/?view=quick` a přidejte ho na plochu přes **⋮ → Přidat na plochu**
+5. Úsporný pohled jen s tlačítky: otevřete `…/Vibed-work-attendance/?view=quick` a přidejte ho na plochu přes **⋮ → Přidat na plochu**
    (vytvoří se záložka, která otevře aplikaci rovnou v tomto pohledu).
 
 Zkratky se načtou z `manifest.json` při instalaci; po změně manifestu je někdy potřeba aplikaci odinstalovat a nainstalovat znovu.
