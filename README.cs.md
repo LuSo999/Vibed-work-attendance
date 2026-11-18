@@ -1,6 +1,6 @@
 [English](README.md) · **Čeština**
 
-# Wibed – evidence pracovní docházky
+# Vibed – evidence pracovní docházky
 
 **[▶ Open the app / Otevřít aplikaci](https://luso999.github.io/Wibed-work-attendance/)**
 
