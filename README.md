@@ -1,6 +1,6 @@
 **English** · [Čeština](README.cs.md)
 
-# Wibed – work attendance tracking
+# Vibed – work attendance tracking
 
 **[▶ Open the app / Otevřít aplikaci](https://luso999.github.io/Wibed-work-attendance/)**
 
